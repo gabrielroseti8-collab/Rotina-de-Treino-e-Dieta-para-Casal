@@ -1,0 +1,6 @@
+{
+  "name": "Rotina de Treino e Dieta para Casal",
+  "description": "App de treino e dieta personalizada para casal com métricas de desempenho semanais, lembretes automáticos baseados no progresso, desafios ramificados e prendas divertidas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

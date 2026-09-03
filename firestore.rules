@@ -1,0 +1,9 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Shared couple fitness and diet app collections
+    match /{document=**} {
+      allow read, write: if true;
+    }
+  }
+}
